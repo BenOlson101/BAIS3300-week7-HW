@@ -10,8 +10,7 @@
      <!-- Include jQuery -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
-  <!-- Include Font Awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-wkC0Ui0aeiWnvLOyv0p32D3Oe3EyYwEmYY6h42SR6R5MkQO8rU5KT6zFp65Dfr1+3LZJh+yZusLd6N5R6+i+2A==" crossorigin="anonymous" />
+  
 </head>
 <body>
     <form action="thankyou.html" method="post">
@@ -34,11 +33,12 @@
         <label for="sometimes-exercise">Sometimes</label>
         <br><br>
         <label for="sleep_hours">How many hours of sleep do you get per night? <span class="tooltip">?</span></label>
-<input type="number" id="sleep_hours" name="sleep_hours" min="0" max="24" required>
-
-<!-- Tooltip -->
-<span class="tooltiptext">Please enter the number of hours of sleep you get per night, rounded to the nearest hour. For example, if you sleep 6 hours and 30 minutes per night, enter 7.</span>
-        
+        <input type="number" id="sleep_hours" name="sleep_hours" min="0" max="24" required>
+        <br>
+        <!-- Tooltip -->
+        <span class="tooltiptext">Please enter the number of hours of sleep you get per night, rounded to the nearest hour. For example, if you sleep 6 hours and 30 minutes per night, enter 7.</span>
+        <br><br>
+        <input type="submit" value="Submit">
         <br><br>
         <label for="smoke">Do you smoke?</label>
         <br>
