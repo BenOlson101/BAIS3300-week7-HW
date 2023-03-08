@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Undergraduate Student Lifestyle Survey - Page 1</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <style>
+        /* Add styles here */
+    </style>
+     <!-- Include jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  
+</head>
+<body>
+    <form action="thankyou.html" method="post">
+        <h2>Undergraduate Student Lifestyle Survey - Page 1</h2>
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required>
+        <br><br>
+        <label for="country-of-residence">Country of Residence:</label>
+        <input type="text" id="country-of-residence" name="country-of-residence" required>
+        <br><br>
+        <label for="exercise-regularly">Do you exercise regularly?</label>
+        <br>
+        <input type="radio" id="yes-exercise" name="exercise-regularly" value="yes" required>
+        <label for="yes-exercise">Yes</label>
+        <br>
+        <input type="radio" id="no-exercise" name="exercise-regularly" value="no" required>
+        <label for="no-exercise">No</label>
+        <br>
+        <input type="radio" id="sometimes-exercise" name="exercise-regularly" value="sometimes" required>
+        <label for="sometimes-exercise">Sometimes</label>
+        <br><br>
+        <label for="sleep_hours">How many hours of sleep do you get per night? <span class="tooltip">?</span></label>
+        <input type="number" id="sleep_hours" name="sleep_hours" min="0" max="24" required>
+        <br>
+        <!-- Tooltip -->
+        <span class="tooltiptext">Please enter the number of hours of sleep you get per night, rounded to the nearest hour. For example, if you sleep 6 hours and 30 minutes per night, enter 7.</span>
+        <br><br>
+        <input type="submit" value="Submit">
+        <br><br>
+        <label for="smoke">Do you smoke?</label>
+        <br>
+        <input type="radio" id="yes-smoke" name="smoke" value="yes">
+        <label for="yes-smoke">Yes</label>
+        <br>
+        <input type="radio" id="no-smoke" name="smoke" value="no">
+        <label for="no-smoke">No</label>
+        <br><br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
